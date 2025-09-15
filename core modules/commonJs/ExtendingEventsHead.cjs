@@ -1,4 +1,4 @@
-const ExtendedEventClass = require("./ExtendingEventsBody.js");
+const ExtendedEventClass = require("./ExtendingEventsBody.cjs");
 
 const extendedEventInstance = new ExtendedEventClass();
 extendedEventInstance.on("ballRing", ({ person, time }) => {
