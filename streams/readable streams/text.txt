@@ -1,0 +1,4 @@
+This is from writable stream 1st 
+This is from writable stream 2nd 
+This is from writable stream 3rd 
+This is from writable stream 4th 
