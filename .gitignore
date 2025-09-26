@@ -1,4 +1,6 @@
-# Logs
+# =========================
+# Logs & Debug Files
+# =========================
 logs
 *.log
 npm-debug.log*
@@ -6,19 +8,47 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+.pnpm-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# =========================
+# Dependencies
+# =========================
+node_modules/
+/dist
+/dist-ssr
+/.output  # Nuxt 3, Nitro, etc.
+/build
+/public/build
+/cache
+/.cache
 
-# Editor directories and files
+# =========================
+# Environment & Secrets
+# =========================
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+.env
+.DS_Store
+Thumbs.db
+
+# =========================
+# Editor & IDE
+# =========================
 .vscode/*
 !.vscode/extensions.json
-.idea
-.DS_Store
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/workspaces.json
+
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+*.sublime-project
+*.sublime-workspace
