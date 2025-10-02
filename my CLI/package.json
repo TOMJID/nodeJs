@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "My first command-line interface tool",
   "main": "index.js",
+  "type": "module",
   "bin": {
     "my-CLI": "index.js"
   },
