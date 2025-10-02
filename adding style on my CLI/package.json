@@ -1,0 +1,23 @@
+{
+  "name": "adding-style-on-my-cli",
+  "version": "1.0.0",
+  "description": "adding styles in my CLI",
+  "keywords": [
+    "cli",
+    "command-line",
+    "tool"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "styling-CLI": "index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.6.2"
+  },
+  "license": "ISC",
+  "author": "tomjid",
+  "type": "module",
+  "main": "index.js"
+}
