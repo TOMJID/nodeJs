@@ -1,0 +1,19 @@
+{
+  "name": "my-cli",
+  "version": "1.0.0",
+  "description": "My first command-line interface tool",
+  "main": "index.js",
+  "bin": {
+    "my-CLI": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "command-line",
+    "tool"
+  ],
+  "author": "",
+  "license": "ISC"
+}
